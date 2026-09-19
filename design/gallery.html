@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agentic AI Hyderabad — Design Review</title>
+<style>
+  :root {
+    --noir: #0B0B0E; --granite: #16161A; --granite-2: #1E1D22;
+    --pearl: #F4EFE6; --brass: #C2A25C; --lacquer: #8E2B3F; --lapis: #33518C;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--noir); color: var(--pearl);
+    font-family: Georgia, 'Times New Roman', serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .sans { font-family: -apple-system, 'Segoe UI', Inter, sans-serif; }
+  header {
+    text-align: center; padding: 120px 24px 90px;
+    background: radial-gradient(ellipse 60% 50% at 50% 0%, #16161A 0%, var(--noir) 70%);
+  }
+  .kicker { color: var(--brass); font-size: 12px; letter-spacing: 0.35em; text-transform: uppercase; margin-bottom: 28px; }
+  h1 { font-size: clamp(40px, 7vw, 88px); font-weight: 400; letter-spacing: -0.02em; line-height: 1.02; }
+  h1 em { font-style: italic; color: var(--brass); }
+  .lede { max-width: 620px; margin: 32px auto 0; font-size: 18px; line-height: 1.7; color: #B9B2A4; font-style: italic; }
+  .phases { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-top: 44px; }
+  .phase { font-size: 12px; letter-spacing: 0.08em; color: #8A8577; border: 1px solid #26262C; border-radius: 4px; padding: 8px 14px; }
+  .phase b { color: var(--pearl); font-weight: 500; }
+  .phase.done b::before { content: "✓ "; color: var(--brass); }
+  section { max-width: 1200px; margin: 0 auto; padding: 40px 24px 80px; }
+  .beat { text-align: center; margin: 80px 0 40px; }
+  .beat .no { color: var(--brass); font-size: 12px; letter-spacing: 0.3em; text-transform: uppercase; }
+  .beat h2 { font-size: clamp(28px, 4vw, 44px); font-weight: 400; margin-top: 16px; letter-spacing: -0.01em; }
+  .beat p { max-width: 560px; margin: 18px auto 0; color: #A39C8D; line-height: 1.7; font-size: 16px; }
+  figure { margin: 40px auto; max-width: 1080px; }
+  figure img { width: 100%; display: block; border-radius: 8px; border: 1px solid #232227; }
+  figcaption { display: flex; justify-content: space-between; gap: 16px; padding: 14px 4px 0; font-size: 13.5px; color: #8A8577; line-height: 1.6; }
+  figcaption .t { color: var(--pearl); }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 1080px; margin: 40px auto; }
+  @media (max-width: 800px) { .grid2 { grid-template-columns: 1fr; } }
+  .grid2 figure { margin: 0; }
+  .laws { max-width: 760px; margin: 60px auto 0; border-top: 1px solid #232227; padding-top: 40px; }
+  .laws h3 { font-weight: 400; font-size: 22px; margin-bottom: 24px; }
+  .laws li { list-style: none; padding: 10px 0; color: #B9B2A4; font-size: 15.5px; line-height: 1.6; border-bottom: 1px solid #1A1A1F; }
+  .laws li b { color: var(--pearl); font-weight: 500; }
+  .laws li::before { content: counter(l) ". "; counter-increment: l; color: var(--brass); margin-right: 8px; }
+  .laws ol { counter-reset: l; }
+  footer { text-align: center; padding: 80px 24px 100px; color: #6B675C; font-size: 13px; letter-spacing: 0.06em; }
+  footer .arch { color: var(--brass); font-size: 20px; margin-bottom: 12px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kicker">Design Review · Research → Patterns → Manifesto → World → Art Direction</div>
+  <h1>Agentic AI <em>Hyderabad</em></h1>
+  <p class="lede">"This is one of the most beautiful digital products I've ever seen."<br>— and only then — "Wait… this is Hyderabad."</p>
+  <div class="phases sans">
+    <span class="phase done"><b>Understand the product</b></span>
+    <span class="phase done"><b>Competitive research</b> · 100 products</span>
+    <span class="phase done"><b>Research Hyderabad</b> · meaning → memory → interface</span>
+    <span class="phase done"><b>Design manifesto</b> · 10 laws</span>
+    <span class="phase done"><b>Build the world</b> · 15 landmarks</span>
+    <span class="phase done"><b>Art direction</b> · visuals last</span>
+  </div>
+</header>
+
+<section>
+  <div class="beat">
+    <div class="no">The Two-Heartbeat Reveal</div>
+    <h2>Heartbeat 1 — seconds 0–5: "This is beautiful."</h2>
+    <p>A pearl-white dome in a void. No landmark, no logo, no place. Keynote-grade restraint. Copy says only: <i>Your agents have a home.</i></p>
+  </div>
+  <figure>
+    <img src="visuals/01-first-frame.jpg" alt="The first frame — pearl dome in a dark void">
+    <figcaption class="sans"><span class="t">01 · First Frame</span><span>Granite plinth, brass filaments, pearl iridescence — the entire DNA, abstracted to anonymity</span></figcaption>
+  </figure>
+
+  <div class="beat">
+    <div class="no">Seconds 5–15</div>
+    <h2>Heartbeat 2 — "Wait… this is Hyderabad."</h2>
+    <p>One continuous pull-back. The dome resolves onto an island in a heart-shaped lake. Four arches. Granite ramparts. The supertall horizon. Recognition lands privately — we never caption it.</p>
+  </div>
+  <figure>
+    <img src="visuals/02-the-reveal.jpg" alt="The reveal — heart-shaped lake, gateway, ramparts, skyline">
+    <figcaption class="sans"><span class="t">02 · The Reveal — key art</span><span>Founded twice before (1591 · 1998), Hyderabad is founded a third time — digital this time</span></figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="beat">
+    <div class="no">The Districts</div>
+    <h2>Every landmark does something.<br>Every feature lives somewhere.</h2>
+    <p>Golconda's acoustics become notifications. Tank Bund becomes honors. Laad Bazaar becomes the marketplace. Architecture as documentation.</p>
+  </div>
+  <div class="grid2">
+    <figure>
+      <img src="visuals/03-gateway.jpg" alt="Charminar Plaza — the Gateway">
+      <figcaption class="sans"><span class="t">03 · The Gateway</span><span>Community heart — four arches, four paths: Build · Learn · Trade · Gather</span></figcaption>
+    </figure>
+    <figure>
+      <img src="visuals/04-signal-citadel.jpg" alt="Golconda — the Signal Citadel">
+      <figcaption class="sans"><span class="t">04 · Signal Citadel</span><span>Agent runtime — a clap at the gate heard a kilometer away: notifications as light along the walls</span></figcaption>
+    </figure>
+    <figure>
+      <img src="visuals/05-the-heart.jpg" alt="Hussain Sagar at dawn — the Oracle">
+      <figcaption class="sans"><span class="t">05 · The Heart</span><span>Hussain Sagar — the Oracle rock, focus mode, the still center. The center holds</span></figcaption>
+    </figure>
+    <figure>
+      <img src="visuals/06-the-bazaar.jpg" alt="Laad Bazaar — the marketplace">
+      <figcaption class="sans"><span class="t">06 · The Bazaar</span><span>Marketplace — bangle rings as craft badges; the only place saturated color leads</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="beat">
+    <div class="no">The System</div>
+    <h2>Materials are honest.</h2>
+    <p>Matte granite and lime = human hands. Pearl iridescence = a machine at work, right now. Bidri black + silver hairlines = the interface itself. You can always see where agency lives.</p>
+  </div>
+  <div class="grid2">
+    <figure>
+      <img src="visuals/07-materials.jpg" alt="The material board">
+      <figcaption class="sans"><span class="t">07 · Material Board</span><span>Granite · lime plaster · Bidri · brass · pearl · lacquer · jali — the palette, photographed</span></figcaption>
+    </figure>
+    <figure>
+      <img src="visuals/08-the-product.jpg" alt="The product UI">
+      <figcaption class="sans"><span class="t">08 · The Product</span><span>Arch-masked cards, Bidri chrome, one iridescent agent run — the system survives contact with UI</span></figcaption>
+    </figure>
+  </div>
+
+  <div class="laws sans">
+    <h3>The Ten Laws (from 100 products + one city)</h3>
+    <ol>
+      <li><b>Beauty before identity</b> — the Hyderabad reveal is earned in seconds 5–15, never stated in second 0</li>
+      <li><b>One idea per viewport</b></li>
+      <li><b>Motion has a job</b> — reveal, direct, or reinforce; UI ≤300ms, cinema only at scene changes</li>
+      <li><b>Materials are honest</b> — matte = human, pearl shimmer = AI at work, glass = external</li>
+      <li><b>Every landmark does something; every feature lives somewhere</b></li>
+      <li><b>The city keeps Hyderabad's time</b> — IST clock, festivals, monsoon, dum builds unveiled at dawn</li>
+      <li><b>Ceremony is scarce</b> — unveilings, durbars and dawns are rare, which makes them precious</li>
+      <li><b>No shouting</b> — tehzeeb as product behavior; no dark patterns, no exclamation marks</li>
+      <li><b>Speed is a feature of beauty</b> — Postcard mode runs on low-end Android</li>
+      <li><b>Traceability</b> — every element traces to a universal law or a real Hyderabadi source, or it is cut</li>
+    </ol>
+  </div>
+</section>
+
+<footer>
+  <div class="arch">▪▸</div>
+  Full documents: design/01–06 · Founded 1591 · Refounded 1998 · Refounded today<br>
+  Granite &amp; Pearl — shot by Apple, built by Foster + Partners, lived in by Hyderabad
+</footer>
+
+</body>
+</html>
