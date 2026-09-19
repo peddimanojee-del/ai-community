@@ -29,6 +29,8 @@ Beauty first. Identity as discovery, not announcement. That delayed realization 
 | 5. Build the world | [`05-world.md`](05-world.md) | Every landmark has purpose + interaction + story + emotional meaning; every feature has a home |
 | 6. Art direction | [`06-art-direction.md`](06-art-direction.md) | Palette / type / geometry / material / light / motion systems defined; image briefs written |
 | — Launch visuals | [`visuals/`](visuals/) | Generated only after Phase 6, satisfying the six criteria (global quality, local identity, editorial, believable, cinematic, premium) |
+| — Prototype: the reveal | [`prototype/`](prototype/) | The Two-Heartbeat choreography implemented as a scroll-driven page, with Postcard mode (Law 9) |
+| — Prototype: artifacts | [`prototype/artifacts.html`](prototype/artifacts.html) | Citizenship certificate + Pearl Grade card as live-personalized, downloadable SVGs |
 
 ---
 

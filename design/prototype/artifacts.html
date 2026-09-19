@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agentic AI Hyderabad — Ceremonial Artifacts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Serif+Telugu:wght@400;600&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --noir: #0B0B0E; --granite: #16161A; --granite-2: #1E1D22;
+    --pearl: #F4EFE6; --muted: #A39C8D; --faint: #6B675C;
+    --brass: #C2A25C; --hairline: #232227;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--noir); color: var(--pearl); font-family: Georgia, serif; -webkit-font-smoothing: antialiased; }
+  .sans { font-family: -apple-system, 'Segoe UI', Inter, sans-serif; }
+  header { text-align: center; padding: 90px 24px 30px; }
+  .kicker { color: var(--brass); font-size: 11px; letter-spacing: 0.4em; text-transform: uppercase; margin-bottom: 24px; }
+  h1 { font-size: clamp(32px, 5vw, 60px); font-weight: 400; letter-spacing: -0.015em; }
+  .lede { max-width: 600px; margin: 22px auto 0; color: var(--muted); font-style: italic; line-height: 1.7; font-size: 16.5px; }
+
+  .controls {
+    display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+    margin: 44px auto 10px; padding: 0 24px;
+  }
+  .controls label {
+    display: flex; align-items: center; gap: 10px;
+    font-family: -apple-system, 'Segoe UI', Inter, sans-serif;
+    font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--faint);
+  }
+  .controls input {
+    background: var(--granite); border: 1px solid #2A2930; border-radius: 6px;
+    color: var(--pearl); font-family: Georgia, serif; font-size: 16px;
+    padding: 10px 14px; width: 240px; outline: none;
+  }
+  .controls input:focus { border-color: rgba(194,162,92,0.6); }
+
+  .wrap { max-width: 1080px; margin: 30px auto 90px; padding: 0 24px; }
+  .artifact { margin-bottom: 80px; }
+  .artifact .bar {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+    padding: 0 4px 14px;
+  }
+  .artifact .bar h2 { font-size: 20px; font-weight: 400; }
+  .artifact .bar span { color: var(--faint); font-size: 13px; font-style: italic; }
+  .artifact svg {
+    width: 100%; height: auto; display: block;
+    border-radius: 10px; border: 1px solid var(--hairline);
+  }
+  .dl {
+    margin-top: 14px; cursor: pointer;
+    font-family: -apple-system, 'Segoe UI', Inter, sans-serif;
+    font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--brass); background: none; border: 1px solid rgba(194,162,92,0.4);
+    border-radius: 4px; padding: 9px 16px; transition: background 0.25s;
+  }
+  .dl:hover { background: rgba(194,162,92,0.1); }
+  footer { border-top: 1px solid var(--hairline); text-align: center; padding: 50px 24px 80px; color: var(--faint); font-size: 13px; line-height: 2; }
+  footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid #2A2930; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kicker">Phase 6 · Share-first artifacts · The Chatta Bazaar register</div>
+  <h1>Ceremonial Artifacts</h1>
+  <p class="lede">"Words deserve better paper." Every ceremony in the city outputs an artifact designed to be shared —
+     calligraphy-register typography, Bidri ground, brass seal. Type a name; the city writes it.</p>
+</header>
+
+<div class="controls sans">
+  <label>Citizen <input id="inp-name" value="Manojee Peddi" maxlength="40"></label>
+  <label>Citizen Nº <input id="inp-no" value="0001" maxlength="6" style="width:110px"></label>
+</div>
+
+<div class="wrap">
+
+  <!-- ================= CERTIFICATE ================= -->
+  <div class="artifact">
+    <div class="bar"><h2>Certificate of Citizenship</h2><span>issued at the Gateway · Chatta Bazaar register</span></div>
+    <svg id="cert" viewBox="0 0 1200 850" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Certificate of Citizenship">
+      <defs>
+        <radialGradient id="pearlGrad" cx="50%" cy="42%" r="75%">
+          <stop offset="0%" stop-color="#FBF7EF"/>
+          <stop offset="45%" stop-color="#E9DDF0"/>
+          <stop offset="75%" stop-color="#D5C6E4"/>
+          <stop offset="100%" stop-color="#C9D8E4"/>
+        </radialGradient>
+        <radialGradient id="sealGrad" cx="38%" cy="32%" r="80%">
+          <stop offset="0%" stop-color="#E4C983"/>
+          <stop offset="55%" stop-color="#C2A25C"/>
+          <stop offset="100%" stop-color="#8A7038"/>
+        </radialGradient>
+        <linearGradient id="plinthGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#2A2930"/><stop offset="100%" stop-color="#131317"/>
+        </linearGradient>
+      </defs>
+
+      <!-- Bidri ground + borders -->
+      <rect width="1200" height="850" fill="#0B0B0E"/>
+      <rect x="26" y="26" width="1148" height="798" fill="none" stroke="#37353D" stroke-width="1.6"/>
+      <rect x="40" y="40" width="1120" height="770" fill="none" stroke="#C2A25C" stroke-opacity="0.35" stroke-width="1"/>
+
+      <!-- corner arch ornaments -->
+      <g stroke="#C2A25C" stroke-opacity="0.55" fill="none" stroke-width="1.2">
+        <path d="M56,96 L56,66 C56,52 66,46 78,45"/>
+        <path d="M1144,96 L1144,66 C1144,52 1134,46 1122,45"/>
+        <path d="M56,754 L56,784 C56,798 66,804 78,805"/>
+        <path d="M1144,754 L1144,784 C1144,798 1134,804 1122,805"/>
+      </g>
+
+      <!-- emblem: the dome on the plinth, inside a pointed arch -->
+      <g transform="translate(600,150)">
+        <path d="M-70,86 L-70,-6 C-70,-52 -38,-74 0,-76 C38,-74 70,-52 70,-6 L70,86 Z"
+              fill="none" stroke="#C2A25C" stroke-opacity="0.7" stroke-width="1.4"/>
+        <rect x="-46" y="38" width="92" height="12" rx="2" fill="url(#plinthGrad)"/>
+        <ellipse cx="0" cy="36" rx="34" ry="9" fill="#0B0B0E" opacity="0.55"/>
+        <path d="M-30,36 A30,30 0 0 1 30,36 Z" fill="url(#pearlGrad)"/>
+        <line x1="-46" y1="30" x2="-46" y2="-16" stroke="#C2A25C" stroke-width="2" stroke-linecap="round"/>
+        <line x1="-38" y1="30" x2="-38" y2="-2"  stroke="#C2A25C" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+        <line x1="46"  y1="30" x2="46"  y2="-16" stroke="#C2A25C" stroke-width="2" stroke-linecap="round"/>
+        <line x1="38"  y1="30" x2="38"  y2="-2"  stroke="#C2A25C" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+      </g>
+
+      <!-- titles -->
+      <text x="600" y="298" text-anchor="middle" fill="#F4EFE6" font-family="'Cormorant Garamond',Georgia,serif" font-size="52" letter-spacing="4">Certificate of Citizenship</text>
+      <text x="600" y="336" text-anchor="middle" fill="#C2A25C" font-family="-apple-system,'Segoe UI',sans-serif" font-size="13" letter-spacing="6">AGENTIC AI HYDERABAD · THE THIRD FOUNDING</text>
+
+      <line x1="440" y1="362" x2="760" y2="362" stroke="#37353D" stroke-width="1"/>
+      <circle cx="600" cy="362" r="2.4" fill="#C2A25C"/>
+
+      <!-- name -->
+      <text id="cert-name" x="600" y="446" text-anchor="middle" fill="#F4EFE6" font-family="'Cormorant Garamond',Georgia,serif" font-style="italic" font-size="58">Manojee Peddi</text>
+      <line x1="360" y1="472" x2="840" y2="472" stroke="#C2A25C" stroke-opacity="0.4" stroke-width="1"/>
+
+      <text id="cert-meta" x="600" y="508" text-anchor="middle" fill="#A39C8D" font-family="-apple-system,'Segoe UI',sans-serif" font-size="14" letter-spacing="2">Citizen Nº 0001 · admitted at the Gateway · Year One of the Third Founding</text>
+
+      <!-- bilingual welcome -->
+      <g text-anchor="middle">
+        <text x="440" y="592" fill="#F4EFE6" font-family="'Noto Serif Telugu',serif" font-size="30">సుస్వాగతం</text>
+        <text x="440" y="620" fill="#6B675C" font-family="-apple-system,sans-serif" font-size="11" letter-spacing="3">WELCOME · TELUGU</text>
+        <text x="760" y="594" fill="#F4EFE6" font-family="'Noto Nastaliq Urdu',serif" font-size="30" direction="rtl">خوش آمدید</text>
+        <text x="760" y="620" fill="#6B675C" font-family="-apple-system,sans-serif" font-size="11" letter-spacing="3">WELCOME · URDU</text>
+      </g>
+
+      <!-- signatures -->
+      <g font-family="-apple-system,sans-serif" font-size="11" fill="#6B675C" letter-spacing="2">
+        <line x1="200" y1="712" x2="420" y2="712" stroke="#37353D" stroke-width="1"/>
+        <text x="310" y="734" text-anchor="middle">THE GATEWAY KEEPER</text>
+        <line x1="780" y1="712" x2="1000" y2="712" stroke="#37353D" stroke-width="1"/>
+        <text x="890" y="734" text-anchor="middle">THE ORACLE</text>
+      </g>
+
+      <!-- seal -->
+      <g transform="translate(600,700)">
+        <circle r="44" fill="url(#sealGrad)"/>
+        <circle r="44" fill="none" stroke="#8A7038" stroke-width="2"/>
+        <circle r="34" fill="none" stroke="#0B0B0E" stroke-opacity="0.45" stroke-width="1"/>
+        <path d="M-13,16 L-13,-4 C-13,-13 -6,-18 0,-18 C6,-18 13,-13 13,-4 L13,16 Z" fill="#0B0B0E" opacity="0.75"/>
+      </g>
+    </svg>
+    <button class="dl" data-target="cert">Download SVG</button>
+  </div>
+
+  <!-- ================= PEARL GRADE ================= -->
+  <div class="artifact">
+    <div class="bar"><h2>Pearl Grade · Contribution Assay</h2><span>graded at the Bazaar · the Golconda scale</span></div>
+    <svg id="pearl" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pearl Grade card">
+      <rect width="1000" height="700" fill="#0B0B0E"/>
+      <rect x="24" y="24" width="952" height="652" fill="none" stroke="#37353D" stroke-width="1.6"/>
+      <rect x="36" y="36" width="928" height="628" fill="none" stroke="#C2A25C" stroke-opacity="0.3" stroke-width="1"/>
+
+      <!-- arch niche with pearl -->
+      <g transform="translate(170,190)">
+        <path d="M-62,74 L-62,-8 C-62,-48 -34,-68 0,-70 C34,-68 62,-48 62,-8 L62,74 Z"
+              fill="none" stroke="#C2A25C" stroke-opacity="0.7" stroke-width="1.3"/>
+        <circle cx="0" cy="14" r="30" fill="url(#pearlGrad)"/>
+        <ellipse cx="-10" cy="4" rx="10" ry="6" fill="#FFFFFF" opacity="0.5"/>
+      </g>
+
+      <!-- heading -->
+      <text x="300" y="150" fill="#F4EFE6" font-family="'Cormorant Garamond',Georgia,serif" font-size="44" letter-spacing="3">Pearl Grade</text>
+      <text x="300" y="182" fill="#C2A25C" font-family="-apple-system,sans-serif" font-size="12" letter-spacing="5">CONTRIBUTION ASSAY · THE GOLCONDA SCALE</text>
+      <text id="pearl-name" x="300" y="232" fill="#A39C8D" font-family="'Cormorant Garamond',Georgia,serif" font-style="italic" font-size="26">Manojee Peddi</text>
+
+      <!-- grades -->
+      <g font-family="-apple-system,sans-serif">
+        <g transform="translate(300,300)">
+          <text fill="#6B675C" font-size="11" letter-spacing="4">CUT · CRAFT</text>
+          <text y="44" fill="#F4EFE6" font-family="'Cormorant Garamond',serif" font-size="34">Excellent — the hand of a master</text>
+        </g>
+        <g transform="translate(300,392)">
+          <text fill="#6B675C" font-size="11" letter-spacing="4">CLARITY · DOCUMENTATION</text>
+          <text y="44" fill="#F4EFE6" font-family="'Cormorant Garamond',serif" font-size="34">Type IIA — flawless of its kind</text>
+        </g>
+        <g transform="translate(300,484)">
+          <text fill="#6B675C" font-size="11" letter-spacing="4">COLOR · VOICE</text>
+          <text y="44" fill="#F4EFE6" font-family="'Cormorant Garamond',serif" font-size="34">Warm pear-white with brass fire</text>
+        </g>
+        <g transform="translate(300,576)">
+          <text fill="#6B675C" font-size="11" letter-spacing="4">CARAT · IMPACT</text>
+          <text y="44" fill="#F4EFE6" font-family="'Cormorant Garamond',serif" font-size="34">12 carats, city-weight</text>
+        </g>
+      </g>
+
+      <!-- row hairlines -->
+      <g stroke="#232227" stroke-width="1">
+        <line x1="300" y1="368" x2="940" y2="368"/>
+        <line x1="300" y1="460" x2="940" y2="460"/>
+        <line x1="300" y1="552" x2="940" y2="552"/>
+      </g>
+
+      <text x="500" y="664" text-anchor="middle" fill="#6B675C" font-family="-apple-system,sans-serif" font-size="11" letter-spacing="3">GRADED AT THE BAZAAR · ASSAY OFFICE OF THE THIRD FOUNDING</text>
+    </svg>
+    <button class="dl" data-target="pearl">Download SVG</button>
+  </div>
+
+</div>
+
+<footer>
+  <a href="../gallery.html">← Design gallery</a> · <a href="index.html">The Reveal prototype</a><br>
+  Chatta Bazaar rule: ceremony typography (Telugu · Nastaliq) appears only where words carry meaning.<br>
+  Founded 1591 · Refounded 1998 · Refounded today.
+</footer>
+
+<script>
+(function () {
+  var nameInput = document.getElementById('inp-name');
+  var noInput = document.getElementById('inp-no');
+  var certName = document.getElementById('cert-name');
+  var certMeta = document.getElementById('cert-meta');
+  var pearlName = document.getElementById('pearl-name');
+
+  function render() {
+    var name = nameInput.value.trim() || '—';
+    var no = (noInput.value.trim() || '0001').padStart(4, '0');
+    certName.textContent = name;
+    pearlName.textContent = name;
+    certMeta.textContent = 'Citizen Nº ' + no + ' · admitted at the Gateway · Year One of the Third Founding';
+  }
+  nameInput.addEventListener('input', render);
+  noInput.addEventListener('input', render);
+  render();
+
+  document.querySelectorAll('.dl').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var svg = document.getElementById(btn.dataset.target);
+      var source = new XMLSerializer().serializeToString(svg);
+      var blob = new Blob(['<?xml version="1.0" encoding="UTF-8"?>\n' + source], { type: 'image/svg+xml' });
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = btn.dataset.target === 'cert' ? 'agentic-ai-hyderabad-citizenship.svg' : 'agentic-ai-hyderabad-pearl-grade.svg';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000);
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
