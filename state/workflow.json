@@ -1,0 +1,711 @@
+{
+  "script": {
+    "status": "approved",
+    "edition": "Beginner-friendly 65-page edition",
+    "note": "User approved beginner edition and said continue"
+  },
+  "current_batch": 1,
+  "pages": {
+    "1": {
+      "status": "approved",
+      "note": "User reviewed corrected batch and said continue"
+    },
+    "2": {
+      "status": "approved",
+      "note": "User reviewed corrected batch and said continue"
+    },
+    "3": {
+      "status": "approved",
+      "note": "User reviewed corrected batch and said continue"
+    },
+    "4": {
+      "status": "approved",
+      "note": "User reviewed corrected batch and said continue"
+    },
+    "5": {
+      "status": "approved",
+      "note": "User reviewed corrected batch and said continue"
+    },
+    "6": {
+      "status": "approved",
+      "note": "User reviewed corrected batch and said continue"
+    },
+    "7": {
+      "status": "approved",
+      "note": "User reviewed corrected batch and said continue"
+    },
+    "8": {
+      "status": "approved",
+      "note": "User reviewed corrected batch and said continue"
+    },
+    "9": {
+      "status": "approved",
+      "note": "User reviewed corrected batch and said continue"
+    },
+    "10": {
+      "status": "approved",
+      "note": "User reviewed corrected batch and said continue"
+    },
+    "11": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 2 and said continue"
+    },
+    "12": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 2 and said continue"
+    },
+    "13": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 2 and said continue"
+    },
+    "14": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 2 and said continue"
+    },
+    "15": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 2 and said continue"
+    },
+    "16": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 2 and said continue"
+    },
+    "17": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 2 and said continue"
+    },
+    "18": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 2 and said continue"
+    },
+    "19": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 2 and said continue"
+    },
+    "20": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 2 and said continue"
+    },
+    "21": {
+      "status": "approved",
+      "note": "User reviewed batch 3 and said continue"
+    },
+    "22": {
+      "status": "approved",
+      "note": "User reviewed batch 3 and said continue"
+    },
+    "23": {
+      "status": "approved",
+      "note": "User reviewed batch 3 and said continue"
+    },
+    "24": {
+      "status": "approved",
+      "note": "User reviewed batch 3 and said continue"
+    },
+    "25": {
+      "status": "approved",
+      "note": "User reviewed batch 3 and said continue"
+    },
+    "26": {
+      "status": "approved",
+      "note": "User reviewed batch 3 and said continue"
+    },
+    "27": {
+      "status": "approved",
+      "note": "User reviewed batch 3 and said continue"
+    },
+    "28": {
+      "status": "approved",
+      "note": "User reviewed batch 3 and said continue"
+    },
+    "29": {
+      "status": "approved",
+      "note": "User reviewed batch 3 and said continue"
+    },
+    "30": {
+      "status": "approved",
+      "note": "User reviewed batch 3 and said continue"
+    },
+    "31": {
+      "status": "approved",
+      "note": "User reviewed batch 4 and said continue"
+    },
+    "32": {
+      "status": "approved",
+      "note": "User reviewed batch 4 and said continue"
+    },
+    "33": {
+      "status": "approved",
+      "note": "User reviewed batch 4 and said continue"
+    },
+    "34": {
+      "status": "approved",
+      "note": "User reviewed batch 4 and said continue"
+    },
+    "35": {
+      "status": "approved",
+      "note": "User reviewed batch 4 and said continue"
+    },
+    "36": {
+      "status": "approved",
+      "note": "User reviewed batch 4 and said continue"
+    },
+    "37": {
+      "status": "approved",
+      "note": "User reviewed batch 4 and said continue"
+    },
+    "38": {
+      "status": "approved",
+      "note": "User reviewed batch 4 and said continue"
+    },
+    "39": {
+      "status": "approved",
+      "note": "User reviewed batch 4 and said continue"
+    },
+    "40": {
+      "status": "approved",
+      "note": "User reviewed batch 4 and said continue"
+    },
+    "41": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 5 and said ok continue"
+    },
+    "42": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 5 and said ok continue"
+    },
+    "43": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 5 and said ok continue"
+    },
+    "44": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 5 and said ok continue"
+    },
+    "45": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 5 and said ok continue"
+    },
+    "46": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 5 and said ok continue"
+    },
+    "47": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 5 and said ok continue"
+    },
+    "48": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 5 and said ok continue"
+    },
+    "49": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 5 and said ok continue"
+    },
+    "50": {
+      "status": "approved",
+      "note": "User reviewed corrected batch 5 and said ok continue"
+    },
+    "51": {
+      "status": "generated",
+      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+    },
+    "52": {
+      "status": "generated",
+      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+    },
+    "53": {
+      "status": "generated",
+      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+    },
+    "54": {
+      "status": "generated",
+      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+    },
+    "55": {
+      "status": "generated",
+      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+    },
+    "56": {
+      "status": "revision_requested",
+      "note": "Automatic QA: @RestControllerAdvice and class declaration merged, closing braces collapsed, and footer not in exact two-line form"
+    },
+    "57": {
+      "status": "generated",
+      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+    },
+    "58": {
+      "status": "revision_requested",
+      "note": "Automatic QA: order.markPaid closing brace collapsed onto the statement line and footer not in exact two-line form"
+    },
+    "59": {
+      "status": "generated",
+      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+    },
+    "60": {
+      "status": "generated",
+      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+    },
+    "61": {
+      "status": "scripted"
+    },
+    "62": {
+      "status": "scripted"
+    },
+    "63": {
+      "status": "scripted"
+    },
+    "64": {
+      "status": "scripted"
+    },
+    "65": {
+      "status": "scripted"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-09-27T06:43:46.410143+00:00",
+      "action": "scripts_created",
+      "pages": 65
+    },
+    {
+      "at": "2026-09-27T06:46:15.088081+00:00",
+      "action": "script_approved",
+      "note": "User approved beginner edition and said continue"
+    },
+    {
+      "at": "2026-09-27T06:46:15.131396+00:00",
+      "action": "prompts_compiled",
+      "batch": 1
+    },
+    {
+      "at": "2026-09-27T06:48:46.888962+00:00",
+      "action": "generated",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "note": "Beginner edition batch 1 generated; pending review"
+    },
+    {
+      "at": "2026-09-27T06:48:46.930384+00:00",
+      "action": "revision_requested",
+      "pages": [
+        6
+      ],
+      "note": "Automatic QA: footer incorrectly contains the word Footer; regenerate"
+    },
+    {
+      "at": "2026-09-27T06:48:46.971979+00:00",
+      "action": "revision_requested",
+      "pages": [
+        7
+      ],
+      "note": "Automatic QA: visual instruction 'orange warning' was rendered as body text and narrowing arrow color is wrong"
+    },
+    {
+      "at": "2026-09-27T06:48:47.012766+00:00",
+      "action": "revision_requested",
+      "pages": [
+        9
+      ],
+      "note": "Automatic QA: stray truncated bullet 'cont' appears under Loop Control; regenerate"
+    },
+    {
+      "at": "2026-09-27T06:56:01.084547+00:00",
+      "action": "generated",
+      "pages": [
+        6,
+        7,
+        9
+      ],
+      "note": "Corrections regenerated and passed automatic visual/content QA; pending human approval"
+    },
+    {
+      "at": "2026-09-27T06:58:02.734273+00:00",
+      "action": "approved",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "note": "User reviewed corrected batch and said continue"
+    },
+    {
+      "at": "2026-09-27T06:58:02.784660+00:00",
+      "action": "prompts_compiled",
+      "batch": 2
+    },
+    {
+      "at": "2026-09-27T07:00:04.324805+00:00",
+      "action": "generated",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "note": "Beginner edition batch 2 generated; pending review"
+    },
+    {
+      "at": "2026-09-27T07:00:04.366424+00:00",
+      "action": "revision_requested",
+      "pages": [
+        11
+      ],
+      "note": "Automatic QA: generated landscape instead of A4 portrait"
+    },
+    {
+      "at": "2026-09-27T07:00:04.406934+00:00",
+      "action": "revision_requested",
+      "pages": [
+        13
+      ],
+      "note": "Automatic QA: code places count++ outside the constructor because the closing brace is early"
+    },
+    {
+      "at": "2026-09-27T07:00:04.447735+00:00",
+      "action": "revision_requested",
+      "pages": [
+        16
+      ],
+      "note": "Automatic QA: Java identifiers in code were uppercased, making case-sensitive code invalid"
+    },
+    {
+      "at": "2026-09-27T07:00:04.488561+00:00",
+      "action": "revision_requested",
+      "pages": [
+        19
+      ],
+      "note": "Automatic QA: Important section layout incorrectly/ambiguously associates multiple interfaces with Java 9"
+    },
+    {
+      "at": "2026-09-27T07:00:04.531163+00:00",
+      "action": "revision_requested",
+      "pages": [
+        20
+      ],
+      "note": "Automatic QA: literal instruction word Bottom was printed before page number"
+    },
+    {
+      "at": "2026-09-27T07:16:50.769701+00:00",
+      "action": "generated",
+      "pages": [
+        11,
+        13,
+        16,
+        19,
+        20
+      ],
+      "note": "Regenerated with learned prompt guardrails; passed portrait, instruction-leak, code-case/scope, version-fact, and footer QA"
+    },
+    {
+      "at": "2026-09-27T07:17:56.971461+00:00",
+      "action": "approved",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "note": "User reviewed corrected batch 2 and said continue"
+    },
+    {
+      "at": "2026-09-27T07:17:57.023413+00:00",
+      "action": "prompts_compiled",
+      "batch": 3
+    },
+    {
+      "at": "2026-09-27T07:20:18.279278+00:00",
+      "action": "generated",
+      "pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        30
+      ],
+      "note": "Batch 3 generated and passed initial visual/content QA; pending human review after batch corrections"
+    },
+    {
+      "at": "2026-09-27T07:20:18.333955+00:00",
+      "action": "revision_requested",
+      "pages": [
+        28
+      ],
+      "note": "Automatic QA: CODE heading was omitted; regenerate with exact heading and code punctuation"
+    },
+    {
+      "at": "2026-09-27T07:20:18.403365+00:00",
+      "action": "revision_requested",
+      "pages": [
+        29
+      ],
+      "note": "Automatic QA: code omitted the Java keyword new before HashMap; regenerate with exact code"
+    },
+    {
+      "at": "2026-09-27T07:27:03.875411+00:00",
+      "action": "generated",
+      "pages": [
+        28,
+        29
+      ],
+      "note": "Corrections regenerated; exact CODE heading, HashMap constructor keyword, code case/scope, portrait layout, and footer passed QA"
+    },
+    {
+      "at": "2026-09-27T07:29:28.038216+00:00",
+      "action": "approved",
+      "pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "note": "User reviewed batch 3 and said continue"
+    },
+    {
+      "at": "2026-09-27T07:29:28.109273+00:00",
+      "action": "prompts_compiled",
+      "batch": 4
+    },
+    {
+      "at": "2026-09-27T07:31:24.862982+00:00",
+      "action": "generated",
+      "pages": [
+        31,
+        32,
+        33,
+        34,
+        36
+      ],
+      "note": "Batch 4 generated and passed initial visual/content QA; pending remaining batch corrections"
+    },
+    {
+      "at": "2026-09-27T07:31:24.923313+00:00",
+      "action": "revision_requested",
+      "pages": [
+        35
+      ],
+      "note": "Automatic QA: duplicated and corrupted More threads bullet; regenerate without desk frame"
+    },
+    {
+      "at": "2026-09-27T07:31:24.982757+00:00",
+      "action": "revision_requested",
+      "pages": [
+        37
+      ],
+      "note": "Automatic QA: technical word buffers was corrupted and page includes exterior desk border"
+    },
+    {
+      "at": "2026-09-27T07:31:25.040662+00:00",
+      "action": "revision_requested",
+      "pages": [
+        38
+      ],
+      "note": "Automatic QA: CODE heading omitted above CheckoutService example"
+    },
+    {
+      "at": "2026-09-27T07:31:25.095366+00:00",
+      "action": "revision_requested",
+      "pages": [
+        39
+      ],
+      "note": "Automatic QA: style drifted to ruled notebook paper instead of the required unruled warm page"
+    },
+    {
+      "at": "2026-09-27T07:31:25.149267+00:00",
+      "action": "revision_requested",
+      "pages": [
+        40
+      ],
+      "note": "Automatic QA: prompt instruction Exact centered footer only leaked onto the lesson page"
+    },
+    {
+      "at": "2026-09-27T07:47:48.925607+00:00",
+      "action": "generated",
+      "pages": [
+        35,
+        37,
+        38,
+        39,
+        40
+      ],
+      "note": "Corrections regenerated; exact text/code, unruled portrait style, no instruction leakage, and exact footer passed QA"
+    },
+    {
+      "at": "2026-09-27T08:41:48.386082+00:00",
+      "action": "approved",
+      "pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "note": "User reviewed batch 4 and said continue"
+    },
+    {
+      "at": "2026-09-27T08:41:48.430192+00:00",
+      "action": "prompts_compiled",
+      "batch": 5
+    },
+    {
+      "at": "2026-09-27T08:43:40.898183+00:00",
+      "action": "generated",
+      "pages": [
+        41,
+        43,
+        44,
+        46,
+        47
+      ],
+      "note": "Batch 5 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+    },
+    {
+      "at": "2026-09-27T08:43:40.945317+00:00",
+      "action": "revision_requested",
+      "pages": [
+        42
+      ],
+      "note": "Automatic QA: visible wooden desk/frame and perspective drift; regenerate clean A4 portrait"
+    },
+    {
+      "at": "2026-09-27T08:43:40.989829+00:00",
+      "action": "revision_requested",
+      "pages": [
+        45
+      ],
+      "note": "Automatic QA: landscape output instead of A4 portrait"
+    },
+    {
+      "at": "2026-09-27T08:43:41.034774+00:00",
+      "action": "revision_requested",
+      "pages": [
+        48
+      ],
+      "note": "Automatic QA: Spring annotation and class declaration were merged instead of preserving exact code line structure"
+    },
+    {
+      "at": "2026-09-27T08:43:41.078565+00:00",
+      "action": "revision_requested",
+      "pages": [
+        49
+      ],
+      "note": "Automatic QA: configuration code collapsed multiple lines and scopes instead of preserving exact structure"
+    },
+    {
+      "at": "2026-09-27T08:43:41.122606+00:00",
+      "action": "revision_requested",
+      "pages": [
+        50
+      ],
+      "note": "Automatic QA: proxy flow duplicated and misplaced the word behavior"
+    },
+    {
+      "at": "2026-09-27T08:54:57.452414+00:00",
+      "action": "generated",
+      "pages": [
+        42,
+        45,
+        48,
+        49,
+        50
+      ],
+      "note": "Corrections regenerated; clean portrait, exact code lines/scopes, exact proxy flow, and exact footer passed QA"
+    },
+    {
+      "at": "2026-09-27T09:05:24.863009+00:00",
+      "action": "approved",
+      "pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "note": "User reviewed corrected batch 5 and said ok continue"
+    },
+    {
+      "at": "2026-09-27T09:30:41.508868+00:00",
+      "action": "prompts_compiled",
+      "batch": 6
+    },
+    {
+      "at": "2026-09-27T09:33:30.133291+00:00",
+      "action": "generated",
+      "pages": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        57,
+        59,
+        60
+      ],
+      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+    },
+    {
+      "at": "2026-09-27T09:33:30.185198+00:00",
+      "action": "revision_requested",
+      "pages": [
+        56
+      ],
+      "note": "Automatic QA: @RestControllerAdvice and class declaration merged, closing braces collapsed, and footer not in exact two-line form"
+    },
+    {
+      "at": "2026-09-27T09:33:30.244845+00:00",
+      "action": "revision_requested",
+      "pages": [
+        58
+      ],
+      "note": "Automatic QA: order.markPaid closing brace collapsed onto the statement line and footer not in exact two-line form"
+    }
+  ]
+}
