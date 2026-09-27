@@ -208,43 +208,43 @@
     },
     "51": {
       "status": "generated",
-      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
     },
     "52": {
       "status": "generated",
-      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
     },
     "53": {
       "status": "generated",
-      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
     },
     "54": {
       "status": "generated",
-      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
     },
     "55": {
-      "status": "generated",
-      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+      "status": "revision_requested",
+      "note": "Automatic QA: footer placement/rule malformed; regenerate exact centered two-line footer"
     },
     "56": {
-      "status": "revision_requested",
-      "note": "Automatic QA: @RestControllerAdvice and class declaration merged, closing braces collapsed, and footer not in exact two-line form"
+      "status": "generated",
+      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
     },
     "57": {
-      "status": "generated",
-      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+      "status": "revision_requested",
+      "note": "Automatic QA: footer correction overlapped the second summary line; regenerate clean page"
     },
     "58": {
-      "status": "revision_requested",
-      "note": "Automatic QA: order.markPaid closing brace collapsed onto the statement line and footer not in exact two-line form"
+      "status": "generated",
+      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
     },
     "59": {
-      "status": "generated",
-      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+      "status": "revision_requested",
+      "note": "Automatic QA: @Bean annotation merged with SecurityFilterChain declaration instead of exact code lines"
     },
     "60": {
       "status": "generated",
-      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
     },
     "61": {
       "status": "scripted"
@@ -672,40 +672,47 @@
       "note": "User reviewed corrected batch 5 and said ok continue"
     },
     {
-      "at": "2026-09-27T09:30:41.508868+00:00",
+      "at": "2026-09-27T12:45:21.837570+00:00",
       "action": "prompts_compiled",
       "batch": 6
     },
     {
-      "at": "2026-09-27T09:33:30.133291+00:00",
+      "at": "2026-09-27T13:23:06.676120+00:00",
       "action": "generated",
       "pages": [
         51,
         52,
         53,
         54,
-        55,
-        57,
-        59,
+        56,
+        58,
         60
       ],
-      "note": "Batch 6 generated and passed initial portrait, content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
     },
     {
-      "at": "2026-09-27T09:33:30.185198+00:00",
+      "at": "2026-09-27T13:23:06.734152+00:00",
       "action": "revision_requested",
       "pages": [
-        56
+        55
       ],
-      "note": "Automatic QA: @RestControllerAdvice and class declaration merged, closing braces collapsed, and footer not in exact two-line form"
+      "note": "Automatic QA: footer placement/rule malformed; regenerate exact centered two-line footer"
     },
     {
-      "at": "2026-09-27T09:33:30.244845+00:00",
+      "at": "2026-09-27T13:23:06.792708+00:00",
       "action": "revision_requested",
       "pages": [
-        58
+        57
       ],
-      "note": "Automatic QA: order.markPaid closing brace collapsed onto the statement line and footer not in exact two-line form"
+      "note": "Automatic QA: footer correction overlapped the second summary line; regenerate clean page"
+    },
+    {
+      "at": "2026-09-27T13:23:06.848577+00:00",
+      "action": "revision_requested",
+      "pages": [
+        59
+      ],
+      "note": "Automatic QA: @Bean annotation merged with SecurityFilterChain declaration instead of exact code lines"
     }
   ]
 }
