@@ -207,59 +207,64 @@
       "note": "User reviewed corrected batch 5 and said ok continue"
     },
     "51": {
-      "status": "generated",
-      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
+      "status": "approved",
+      "note": "User reviewed batch 6 and said CONTINUE"
     },
     "52": {
-      "status": "generated",
-      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
+      "status": "approved",
+      "note": "User reviewed batch 6 and said CONTINUE"
     },
     "53": {
-      "status": "generated",
-      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
+      "status": "approved",
+      "note": "User reviewed batch 6 and said CONTINUE"
     },
     "54": {
-      "status": "generated",
-      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
+      "status": "approved",
+      "note": "User reviewed batch 6 and said CONTINUE"
     },
     "55": {
-      "status": "generated",
-      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
+      "status": "approved",
+      "note": "User reviewed batch 6 and said CONTINUE"
     },
     "56": {
-      "status": "generated",
-      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
+      "status": "approved",
+      "note": "User reviewed batch 6 and said CONTINUE"
     },
     "57": {
-      "status": "generated",
-      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
+      "status": "approved",
+      "note": "User reviewed batch 6 and said CONTINUE"
     },
     "58": {
-      "status": "generated",
-      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
+      "status": "approved",
+      "note": "User reviewed batch 6 and said CONTINUE"
     },
     "59": {
-      "status": "generated",
-      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
+      "status": "approved",
+      "note": "User reviewed batch 6 and said CONTINUE"
     },
     "60": {
-      "status": "generated",
-      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
+      "status": "approved",
+      "note": "User reviewed batch 6 and said CONTINUE"
     },
     "61": {
-      "status": "scripted"
+      "status": "generated",
+      "note": "Final batch generated; portrait layout, content/code, canonical footers, and visual QA completed"
     },
     "62": {
-      "status": "scripted"
+      "status": "generated",
+      "note": "Final batch generated; portrait layout, content/code, canonical footers, and visual QA completed"
     },
     "63": {
-      "status": "scripted"
+      "status": "generated",
+      "note": "Final batch generated; portrait layout, content/code, canonical footers, and visual QA completed"
     },
     "64": {
-      "status": "scripted"
+      "status": "generated",
+      "note": "Final batch generated; portrait layout, content/code, canonical footers, and visual QA completed"
     },
     "65": {
-      "status": "scripted"
+      "status": "generated",
+      "note": "Final batch generated; portrait layout, content/code, canonical footers, and visual QA completed"
     }
   },
   "history": [
@@ -692,6 +697,40 @@
         60
       ],
       "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
+    },
+    {
+      "at": "2026-09-28T06:45:09.798395+00:00",
+      "action": "approved",
+      "pages": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "note": "User reviewed batch 6 and said CONTINUE"
+    },
+    {
+      "at": "2026-09-28T06:45:09.847044+00:00",
+      "action": "prompts_compiled",
+      "batch": 7
+    },
+    {
+      "at": "2026-09-28T06:46:45.994916+00:00",
+      "action": "generated",
+      "pages": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "note": "Final batch generated; portrait layout, content/code, canonical footers, and visual QA completed"
     }
   ]
 }
