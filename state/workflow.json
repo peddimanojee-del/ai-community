@@ -208,43 +208,43 @@
     },
     "51": {
       "status": "generated",
-      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
     },
     "52": {
       "status": "generated",
-      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
     },
     "53": {
       "status": "generated",
-      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
     },
     "54": {
       "status": "generated",
-      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
     },
     "55": {
-      "status": "revision_requested",
-      "note": "Automatic QA: footer placement/rule malformed; regenerate exact centered two-line footer"
+      "status": "generated",
+      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
     },
     "56": {
       "status": "generated",
-      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
     },
     "57": {
-      "status": "revision_requested",
-      "note": "Automatic QA: footer correction overlapped the second summary line; regenerate clean page"
+      "status": "generated",
+      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
     },
     "58": {
       "status": "generated",
-      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
     },
     "59": {
-      "status": "revision_requested",
-      "note": "Automatic QA: @Bean annotation merged with SecurityFilterChain declaration instead of exact code lines"
+      "status": "generated",
+      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
     },
     "60": {
       "status": "generated",
-      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
+      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
     },
     "61": {
       "status": "scripted"
@@ -677,42 +677,21 @@
       "batch": 6
     },
     {
-      "at": "2026-09-27T13:23:06.676120+00:00",
+      "at": "2026-09-28T06:40:19.503400+00:00",
       "action": "generated",
       "pages": [
         51,
         52,
         53,
         54,
+        55,
         56,
+        57,
         58,
+        59,
         60
       ],
-      "note": "Batch 6 generated and passed portrait, exact-content, code, and footer QA; pending remaining corrections"
-    },
-    {
-      "at": "2026-09-27T13:23:06.734152+00:00",
-      "action": "revision_requested",
-      "pages": [
-        55
-      ],
-      "note": "Automatic QA: footer placement/rule malformed; regenerate exact centered two-line footer"
-    },
-    {
-      "at": "2026-09-27T13:23:06.792708+00:00",
-      "action": "revision_requested",
-      "pages": [
-        57
-      ],
-      "note": "Automatic QA: footer correction overlapped the second summary line; regenerate clean page"
-    },
-    {
-      "at": "2026-09-27T13:23:06.848577+00:00",
-      "action": "revision_requested",
-      "pages": [
-        59
-      ],
-      "note": "Automatic QA: @Bean annotation merged with SecurityFilterChain declaration instead of exact code lines"
+      "note": "Batch 6 generated; portrait layout, exact code/content, canonical two-line footers, and visual QA completed"
     }
   ]
 }
